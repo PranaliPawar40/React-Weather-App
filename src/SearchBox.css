@@ -1,0 +1,42 @@
+.SearchBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.SearchBox form {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 25px;
+    border-radius: 40px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Material UI input styling */
+.MuiTextField-root {
+    background: white;
+    border-radius: 30px;
+}
+
+.MuiOutlinedInput-root {
+    border-radius: 30px !important;
+}
+
+/* Button Styling */
+.SearchBox button {
+    border-radius: 30px !important;
+    padding: 8px 20px !important;
+    font-weight: bold !important;
+    letter-spacing: 1px;
+    transition: all 0.3s ease !important;
+}
+
+/* Hover Effect */
+.SearchBox button:hover {
+    transform: scale(1.08);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,19 @@
+.InfoBox {
+    margin-top: 20px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.MuiCard-root {
+    width: 350px !important;
+    border-radius: 20px !important;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3) !important;
+    transition: 0.3s ease !important;
+}
+
+.MuiCard-root:hover {
+    transform: scale(1.05);
+}
